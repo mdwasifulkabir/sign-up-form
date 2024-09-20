@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#bg-image {
+  height: 100;
+  width: auto;
+}
+
+.logo-section {
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  background-color: rgba(65, 65, 65, 0.6);
+  top: 200px;
+  right: 50%;
+}
