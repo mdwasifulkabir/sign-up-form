@@ -19,3 +19,8 @@ body {
   top: 200px;
   right: 50%;
 }
+
+.top-section {
+  font-size: 5rem;
+  margin: 15% 25% 10% 5%;
+}
