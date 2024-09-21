@@ -40,7 +40,7 @@ form {
 }
 
 .form-container input{
-  padding: 8px 30px;
+  padding: 8px 15px;
   border-radius: 8px;
   font-size: 1rem;
   margin-top: 5px;
@@ -55,4 +55,16 @@ form {
 #form-header{
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+.bottom-section > button {
+  margin: 1rem;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.bottom-section > p {
+  margin: 0;
+  margin-left: 1rem;
 }
