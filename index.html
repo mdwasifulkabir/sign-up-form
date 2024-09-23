@@ -31,14 +31,14 @@
       <form action="" method="post" id="signup-form">
         <div class="form-row">
           <p>
-            <label for="first-name">
+            <label for="first-name" required>
               FIRST NAME
               <br>
               <input type="text" id="first-name" name="first-name">
             </label>
           </p>
           <p>
-            <label for="last-name">
+            <label for="last-name" required>
               LAST NAME
               <br>
               <input type="text" id="last-name" name="last-name">
@@ -47,7 +47,7 @@
         </div>
         <div class="form-row">
           <p>
-            <label for="user-email">
+            <label for="user-email" required>
               EMAIL
               <br>
               <input type="email" id="user-email" name="user-email">
@@ -67,13 +67,15 @@
               PASSWORD
               <br>
               <input type="password" id="user-password" name="user-password" minlength="8" required>
+              <span>
+              </span>
             </label>
           </p>
           <p>
             <label for="password-confirm">
               CONFIRM PASSWORD 
               <br>
-              <input type="password" id="password-confirm" name="password-confirm" minlength="8" required >
+              <input type="password" id="password-confirm" name="password-confirm" minlength="8" required>
             </label>
           </p>
         </div>
